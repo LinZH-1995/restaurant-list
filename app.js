@@ -10,7 +10,15 @@ app.use(express.static('public'))
 
 app.get('/', (req, res) => {
   const restaurantData = restaurantList.results
-  res.render('index', {restaurants: restaurantData})
+  res.render('index', { restaurants: restaurantData })
+})
+
+app.get('/restaurants/:restaurantID', (req, res) => {
+  const id = req.params.restaurantID
+  const restaurant = restaurantList.results.find(restaurant => {
+    return restaurant.id.toString() === id
+  })
+  res.render('show', { restaurant: restaurant })
 })
 
 app.listen(port, () => {
