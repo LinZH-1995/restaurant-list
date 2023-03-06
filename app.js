@@ -9,7 +9,8 @@ app.set('view engine', 'handlebars')
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-  res.render('index')
+  const restaurantData = restaurantList.results
+  res.render('index', {restaurants: restaurantData})
 })
 
 app.listen(port, () => {
