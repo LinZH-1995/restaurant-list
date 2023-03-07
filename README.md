@@ -9,8 +9,14 @@ A simple restaurant list made by [Express](https://expressjs.com/) on [Node.js](
 * [Express](https://github.com/expressjs/express) - version 4.18.2
 * [Express-Hanlebars](https://github.com/express-handlebars/express-handlebars) - version 7.0.1
 
-## Getting Started
+## Feature
+**Show Restaurant Information**
+* click restaurant card
 
+**Search Restaurant**
+* type keyword of restaurant name/restaurant category in search bar - ( ***case insensitive*** )
+
+## Getting Started
 ### Install - Use Terminal
 
 #### 1. Copy project to your own PC
