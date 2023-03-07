@@ -14,7 +14,7 @@ A simple restaurant list made by [Express](https://expressjs.com/) on [Node.js](
 * click restaurant card
 
 **Search Restaurant**
-* type keyword of restaurant name/restaurant category in search bar - ( ***case insensitive*** )
+* type keyword of restaurant name/category in search bar - ( ***case insensitive*** )
 
 ## Getting Started
 ### Install - Use Terminal
